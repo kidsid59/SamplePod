@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/SamplePod/*.{h,m,xib}'
+  s.source_files = 'Pod/Classes/SamplePod1/*.{h,m,xib}'
   s.resources = 'Pod/Assets/'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
