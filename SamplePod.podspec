@@ -38,4 +38,8 @@ Pod::Spec.new do |s|
     ss.source_files = 'Pod/Classes/NewGroup/*.{h,m,xib}'
   end
 
+  s.subspec 'MyGroup' do |ss|
+    ss.source_files = 'MyGroup/pod1/*.{h,m,xib}'
+  end
+
 end
